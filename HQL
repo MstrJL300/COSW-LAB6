@@ -1,0 +1,3 @@
+from Despacho as d, Pedido p
+inner join d.vehiculo
+inner join d.pedidos
