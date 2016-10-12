@@ -48,7 +48,7 @@ public class ApplicationServicesImpl implements ApplicationServices{
         List<Pedido> p=ordrepo.findAll();
         return p;
     }
-
+    
     @Override
     public List<Producto> getAllProducts() throws ServicesException{
         return  prorepo.findAll();

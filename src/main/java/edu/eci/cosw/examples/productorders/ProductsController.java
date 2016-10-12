@@ -16,6 +16,7 @@
  */
 package edu.eci.cosw.examples.productorders;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import edu.eci.cosw.samples.model.Producto;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
